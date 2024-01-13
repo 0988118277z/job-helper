@@ -9,10 +9,10 @@ def reconnect_mysql():
     cnx = None
     try:
         cnx = mysql.connector.connect(
-            host="35.185.255.1",
-            user="yiline",
-            password="Aa123456",
-            database="linebot"
+            host="host",
+            user="user",
+            password="password",
+            database="database"
         )
         if cnx.is_connected():
             print("重新连接到数据库成功")
