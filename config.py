@@ -3,10 +3,10 @@ def reconnect_mysql():
     cnx = None
     try:
         cnx = mysql.connector.connect(
-            host="35.185.255.1",
-            user="yiline",
-            password="Aa123456",
-            database="linebot"
+            host="host",
+            user="user",
+            password="password",
+            database="database"
         )
         if cnx.is_connected():
             print("重新连接到数据库成功")
@@ -15,8 +15,8 @@ def reconnect_mysql():
     return cnx
     
 
-channel_access_token = r'snCGTjFnKDwbUEWhpUSAXfZ1S3BZhb0lNDlv372AoKLQSbHaxI2Z3OIZnhuvbg0Ta8SAJBDsjXlImBDTta3fh5vAiwJjhcYhca0AEWK1ZQJHYpd1G/0h5vA6Eq00y5UWhvVjzHVK3gwkD7q1WgNCeQdB04t89/1O/w1cDnyilFU='
+channel_access_token = r'channel_access_token'
 
-channel_secret =  r'16cd7a066350f98b11dc1b784b6844bf'
+channel_secret =  r'channel_secret'
 
-access_token = r'sjia8Xi4KOtfLB69PM06CjMG5lE7UaO5vOgqPmXhwXn' 
+access_token = r'access_token' 
