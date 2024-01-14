@@ -17,9 +17,9 @@ WebAPI畫面</br>
     &nbsp;&nbsp;3.更新資料時去爬資料的程式</br>
  </br></br>
   Python Flask，分成webapi與linebot api</br>
-    ![image](https://github.com/0988118277z/job-helper/assets/86332350/9868f775-585e-4138-8720-9f08977b14dc)
     &nbsp;&nbsp;Webapi  回傳json格式、Linebot 回傳文字格式</br>
-    ![image](https://github.com/0988118277z/job-helper/assets/86332350/3fe025cf-f6f7-4024-979d-0126129c49f3)
+
+    
 
 
 
