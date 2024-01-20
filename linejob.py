@@ -37,7 +37,7 @@ def job(emt,api=None):
         else: 
             return {'status':f'資料庫中未有此關鍵字資料，已將{sult}加入查詢清單'}
 
-    if results == 0 or results == 2 :
+    if results == 0 :
         
         if api == None:
             return '資料查詢中'
@@ -57,7 +57,7 @@ def job(emt,api=None):
 def update_job(emt,api=None):
     sult = emt.replace('^','').replace(' ','')
     try:
-        query = f'UPDATE keyword_status set status = 2 where keyword = %s'
+        query = f'UPDATE keyword_status set status = 0 where keyword = %s'
         mysql_insert(query,[sult])[0][0]
         
         if api == None:
