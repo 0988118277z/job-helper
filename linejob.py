@@ -44,7 +44,7 @@ def job(emt,api=None):
         else: 
             return {'status':'資料查詢中'}
     elif results == 1:
-        query = f"SELECT * FROM {sult}"
+        query = f"SELECT * FROM data where keyword = '{sult}'"
         cnx = reconnect_mysql()
         df = pd.read_sql(query,cnx)
         cnx.close()
