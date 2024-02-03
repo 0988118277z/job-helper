@@ -11,10 +11,9 @@ WebAPI畫面</br>
   ![image](https://github.com/0988118277z/job-helper/assets/86332350/4354d83b-786b-444a-bba0-ea633d8580d1)
 </br></br>
 程式說明</br>
-  程式主要分成三部分</br>
+  程式主要分成二部分</br>
     &nbsp;&nbsp;1.Python Flask，來接收與回傳資料</br>
-    &nbsp;&nbsp;2.第一次查詢時去爬資料的程式</br>
-    &nbsp;&nbsp;3.更新資料時去爬資料的程式</br>
+    &nbsp;&nbsp;2.更新資料時去爬資料的程式</br>
  </br></br>
   Python Flask，分成webapi與linebot api</br>
     &nbsp;&nbsp;Webapi  回傳json格式、Linebot 回傳文字格式</br>
